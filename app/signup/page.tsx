@@ -109,7 +109,8 @@ export default function Login() {
               border: '1px solid #D9D9D9',
               borderRadius: '5px',
               backgroundColor: '#F8F8F8',
-              boxShadow: 'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
+              boxShadow:
+                'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
               boxSizing: 'border-box',
             }}
           />
@@ -126,7 +127,8 @@ export default function Login() {
               border: '1px solid #D9D9D9',
               borderRadius: '5px',
               backgroundColor: '#F8F8F8',
-              boxShadow: 'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
+              boxShadow:
+                'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
               boxSizing: 'border-box',
             }}
           />
@@ -144,7 +146,8 @@ export default function Login() {
               border: '1px solid #D9D9D9',
               borderRadius: '5px',
               backgroundColor: '#F8F8F8',
-              boxShadow: 'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
+              boxShadow:
+                'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
               boxSizing: 'border-box',
             }}
           />
