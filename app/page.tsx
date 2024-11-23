@@ -112,7 +112,7 @@ export default function Home() {
             letterSpacing: '0.3rem',
           }}
         >
-          FIREMAN
+          fireman
         </div>
       </div>
     </>
