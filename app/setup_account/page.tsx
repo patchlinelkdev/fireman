@@ -15,10 +15,26 @@ export default function AccountSetup() {
       }}
     >
       <h1>Account Setup</h1>
-      <input type="text" placeholder="Enter your name" style={{ marginBottom: '10px', padding: '10px' }} />
-      <input type="email" placeholder="Enter your email" style={{ marginBottom: '10px', padding: '10px' }} />
-      <input type="password" placeholder="Enter your password" style={{ marginBottom: '10px', padding: '10px' }} />
-      <button style={{ padding: '10px', backgroundColor: 'blue', color: 'white' }}>Submit</button>
+      <input
+        type="text"
+        placeholder="Enter your name"
+        style={{ marginBottom: '10px', padding: '10px' }}
+      />
+      <input
+        type="email"
+        placeholder="Enter your email"
+        style={{ marginBottom: '10px', padding: '10px' }}
+      />
+      <input
+        type="password"
+        placeholder="Enter your password"
+        style={{ marginBottom: '10px', padding: '10px' }}
+      />
+      <button
+        style={{ padding: '10px', backgroundColor: 'blue', color: 'white' }}
+      >
+        Submit
+      </button>
     </div>
   );
 }
