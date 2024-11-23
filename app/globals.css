@@ -1,4 +1,24 @@
+/* global.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Geist Mono is defined as --font-geist-mono and in case that does not exists, monospace is used instead*/
+:root {
+    --font-geist-sans: 'Geist Sans', sans-serif;
+    --font-geist-mono: 'Geist Mono', monospace;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: white;*/
+    overflow: hidden;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--font-geist-sans);
+}
 
