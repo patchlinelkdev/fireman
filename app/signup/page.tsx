@@ -25,7 +25,7 @@ export default function Login() {
               padding: '10px 20px',
               backgroundColor: '#CECECE',
               color: 'black',
-              fontSize: '1rem',
+              fontSize: '4rem',
               border: 'none',
               borderRadius: '5px',
               cursor: 'pointer',
