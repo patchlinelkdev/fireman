@@ -1,5 +1,7 @@
+import LoginBtn from './components/HomePage/LoginBtn';
+import ProfileBtn from './components/HomePage/ProfileBtn';
+import SignupBtn from './components/HomePage/SignupBtn';
 import './globals.css';
-import Link from 'next/link';
 
 
 export default function Home() {
@@ -20,59 +22,13 @@ export default function Home() {
           gap: '10px',
         }}
       >
-        {/* Login Button */}
-        <Link href="/login">
-          <button
-            style={{
-              padding: '10px 20px',
-              backgroundColor: '#CECECE',
-              color: 'black',
-              fontSize: '1rem',
-              border: 'none',
-              borderRadius: '5px',
-              cursor: 'pointer',
-            }}
-          >
-            Log in
-          </button>
-        </Link>
+        
+        <LoginBtn />
 
-        {/* Sign Up Button */}
-        <Link href="/signup">
-          <button
-            style={{
-              padding: '10px 20px',
-              backgroundColor: '#6AA84F',
-              color: 'white',
-              fontSize: '1rem',
-              border: 'none',
-              borderRadius: '5px',
-              cursor: 'pointer',
-            }}
-          >
-            Sign up
-          </button>
-        </Link>
+        <SignupBtn />        
 
-        {/* Account Button */}
-        <Link href="/setup_account">
-          <button
-            style={{
-              padding: '10px',
-              backgroundColor: 'white',
-              color: 'black',
-              fontSize: '1.5rem',
-              border: 'none',
-              borderRadius: '50%',
-              cursor: 'pointer',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}
-          >
-            <span style={{ fontSize: '1.5rem' }}>👤</span>
-          </button>
-        </Link>
+        <ProfileBtn />
+
       </div>
 
       {/* Background container */}
