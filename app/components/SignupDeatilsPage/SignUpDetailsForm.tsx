@@ -1,15 +1,16 @@
 "use client";
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const SignUpDetailsForm = () => {
   return (
     <form>
             <div className="py-5 px-14">
-                <img
+                <Image 
                 src="../images/PrettyPfp.jpg"
                 alt="Profile Pic"
                 className="w-32 h-32 rounded-full border-2 border-black"
-                ></img>
+                ></Image>
             </div>
 
             <label htmlFor="FirstName" className="block text-lg font-medium">

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const page = () => {
   return (
@@ -6,7 +7,7 @@ const page = () => {
         <div className='flex upperBackground'>
 
             <div className='py-8 px-12'>
-                <img src='../images/PrettyPfp.jpg' className='rounded-full w-24 h-24 border border-black'></img>
+                <Image alt='profile pic' src='../images/PrettyPfp.jpg' className='rounded-full w-24 h-24 border border-black'></Image>
             </div>
 
             <div className='flex justify-center flex-col'>
