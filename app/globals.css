@@ -20,3 +20,54 @@
   text-transform: uppercase;
   font-family: var(--font-geist-sans);
 }
+
+
+.GradientBackground {
+    background-image: linear-gradient(to right, white 40%, rgba(255, 255, 255, 0) 100%), url('/images/background.png');
+    background-size: cover;
+    background-repeat: no repeat;
+    width: 100%;
+    height: 200vh;
+    background-position: center;
+}
+
+@media (max-width: 1024px) {
+    .GradientBackground {
+        background-image: linear-gradient(to right, white 50%, rgba(255, 255, 255, 0) 100%), url('/images/background.png');
+    }
+}
+
+@media (max-width: 768px) {
+    .GradientBackground {
+        background-image: linear-gradient(to right, white 60%, rgba(255, 255, 255, 0) 100%), url('/images/background.png');
+    }
+}
+
+@media (max-width: 640px) {
+    .GradientBackground {
+        background-image: linear-gradient(to right, white 80%, rgba(255, 255, 255, 0) 100%), url('/images/background.png');
+    }
+}
+
+.upperBackground {
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-repeat: no repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+}
+
+.upperBackground2 {
+    background-image: url('/images/background2.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+}
+
