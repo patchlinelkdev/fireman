@@ -3,24 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Geist Mono is defined as --font-geist-mono and in case that does not exists, monospace is used instead*/
 :root {
-    --font-geist-sans: 'Geist Sans', sans-serif;
-    --font-geist-mono: 'Geist Mono', monospace;
+  --font-geist-sans: 'Geist Sans', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
 }
 
 .page-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    /*background: white;*/
-    overflow: hidden;
-    color: white;
-    text-transform: uppercase;
-    font-family: var(--font-geist-sans);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*background: white;*/
+  overflow: hidden;
+  color: white;
+  text-transform: uppercase;
+  font-family: var(--font-geist-sans);
 }
+
 
 .GradientBackground {
     background-image: linear-gradient(to right, white 40%, rgba(255, 255, 255, 0) 100%), url('/images/background.png');
@@ -70,3 +70,4 @@
     border-bottom-left-radius: 3.5rem;
     border-bottom-right-radius: 3.5rem;
 }
+

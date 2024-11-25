@@ -3,7 +3,6 @@ import ProfileBtn from './components/HomePage/ProfileBtn';
 import SignupBtn from './components/HomePage/SignupBtn';
 import './globals.css';
 
-
 export default function Home() {
   return (
     <>
@@ -68,7 +67,7 @@ export default function Home() {
             letterSpacing: '0.3rem',
           }}
         >
-          FIREMAN
+          fireman
         </div>
       </div>
     </>

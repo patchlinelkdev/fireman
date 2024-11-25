@@ -21,7 +21,9 @@ export default function Login() {
         }}
       >
 
+
         <BackToHomeBtn />
+
       </div>
 
       {/* Background container */}
@@ -56,6 +58,7 @@ export default function Login() {
           {/* Sign up Container */}
           <div
             style={{
+
               position: 'relative',
               zIndex: '2',
               background: 'linear-gradient(145deg, #e0e0e0, #c2c2c2)', // Gradient background
@@ -63,6 +66,7 @@ export default function Login() {
               padding: '30px',
               width: '300px',
               textAlign: 'center',
+
             }}
           >
             <SignupForm />
