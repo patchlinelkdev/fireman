@@ -1,7 +1,6 @@
 import BackToHomeBtn from '../components/LoginPage/BackToHomeBtn';
 import LoginForm from '../components/LoginPage/LoginForm';
 import '../globals.css';
-import Link from 'next/link';
 
 export default function Login() {
   return (
