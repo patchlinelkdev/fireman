@@ -1,7 +1,9 @@
+
 import LoginBtn from "./components/HomePage/LoginBtn";
 import ProfileBtn from "./components/HomePage/ProfileBtn";
 import SignupBtn from "./components/HomePage/SignupBtn";
 import "./globals.css";
+
 
 export default function Home() {
   return (
@@ -20,9 +22,11 @@ export default function Home() {
       ></div>
 
       {/* Text content */}
+
       <div className="absolute w-screen h-[80vh] top-[10vh] left-0 flex justify-center items-center z-20">
         <div className="text-white text-[10rem] font-bold tracking-[0.3rem]">
           FIREMAN
+
         </div>
       </div>
     </>
