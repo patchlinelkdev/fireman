@@ -5,17 +5,7 @@ import Link from 'next/link';
 const LoginBtn = () => {
   return (
     <Link href="/login">
-          <button
-            style={{
-              padding: '10px 20px',
-              backgroundColor: '#CECECE',
-              color: 'black',
-              fontSize: '1rem',
-              border: 'none',
-              borderRadius: '5px',
-              cursor: 'pointer',
-            }}
-          >
+          <button className="px-5 py-2.5 bg-gray-300 text-black text-base border-none rounded-md cursor-pointer">
             Log in
           </button>
     </Link>
