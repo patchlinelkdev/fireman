@@ -12,6 +12,10 @@ export default {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      boxShadow: {
+        'inner-shadow-input': 'inset 2px 2px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 5px rgba(255, 255, 255, 0.7)',
+        'green-btn-shadow': '2px 2px 5px rgba(0, 0, 0, 0.2)',
+      },
     },
   },
   plugins: [],
