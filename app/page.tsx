@@ -1,7 +1,6 @@
 import LoginBtn from './components/HomePage/LoginBtn';
 import ProfileBtn from './components/HomePage/ProfileBtn';
 import SignupBtn from './components/HomePage/SignupBtn';
-import './globals.css';
 
 export default function Home() {
   return (
@@ -15,8 +14,7 @@ export default function Home() {
 
       {/* Background container */}
       <div
-        className="absolute w-screen h-[80vh] top-[10vh] left-0 bg-center bg-cover bg-no-repeat filter brightness-50 z-[1]"
-        style={{ backgroundImage: "url('/images/background.png')" }}
+        className="absolute bg-[url('/images/background.png')] w-screen h-[80vh] top-[10vh] left-0 bg-center bg-cover bg-no-repeat filter brightness-50 z-[1]"
       ></div>
 
       {/* Text content */}

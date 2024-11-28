@@ -14,8 +14,7 @@ export default function Login() {
       <div className="absolute top-[10vh] bottom-[10vh] left-0 w-full h-[calc(100vh-20vh)] flex justify-center items-center">
         {/* Background image */}
         <div
-          className="absolute top-0 left-0 w-full h-full bg-cover bg-center filter brightness-[30%]"
-          style={{ backgroundImage: 'url(/images/background.png)' }}
+          className="absolute bg-[url('/images/background.png')] top-0 left-0 w-full h-full bg-cover bg-center filter brightness-[30%]"
         ></div>
 
         {/* Sign up Container */}

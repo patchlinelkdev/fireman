@@ -4,7 +4,7 @@ import Image from 'next/image';
 const page = () => {
   return (
     <>
-      <div className="flex upperBackground">
+      <div className="flex bg-[url('/images/whitebg.jpg')] bg-cover bg-no-repeat bg-center w-full h-auto rounded-b-[3.5rem]">
         <div className="py-8 px-12">
           <Image
             alt="profile pic"
