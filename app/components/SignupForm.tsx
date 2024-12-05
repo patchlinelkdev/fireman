@@ -17,37 +17,35 @@ const SignupForm = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const validateForm = () => {
-    let valid = true;
-
     if (email === '') {
       setEmailError('This field is required');
-      valid = false;
+      return false;
     } else if (
       !email.includes('@') ||
       (email.match(/@/g) || []).length !== 1 ||
       !email.endsWith('.com')
     ) {
       setEmailError('Invalid email');
-      valid = false;
+      return false;
     } else {
       setEmailError('');
     }
 
     if (password === '') {
       setPasswordError('This field is required');
-      valid = false;
+      return false;
     } else {
       setPasswordError('');
     }
 
     if(confirmPassword !== password){
       setConfirmPasswordError('Passwords do not match');
-      valid = false;
+      return false;
     } else{
       setConfirmPasswordError('');
     }
 
-    return valid;
+    return true;
   };
 
   const signIn = async (e: React.MouseEvent<HTMLButtonElement>) => {
