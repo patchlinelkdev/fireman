@@ -1,5 +1,5 @@
 import BackToHomeBtn from '../components/SignupPage/BackToHomeBtn';
-import SignupForm from '../components/SignupPage/SignupForm';
+import SignupForm from '../components/SignupForm';
 import '../globals.css';
 
 export default function Login() {
