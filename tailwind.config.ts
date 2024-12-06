@@ -18,6 +18,7 @@ export default {
       },
       backgroundImage: {
         'gradient-bg': "linear-gradient(to right, white 28rem, rgba(255, 255, 255, 0) 100%), url('/images/background.png')",
+        'gradient-bg-m': "linear-gradient(to top, black 40%, rgba(255, 255, 255, 0) 100%), url('/images/bgHomePageMobile.png')"
       },
     },
   },
