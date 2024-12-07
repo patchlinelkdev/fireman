@@ -1,5 +1,4 @@
 import React from 'react';
-import GetStartedBtn from './components/HomePage/GetStartedBtn';
 import LoginBtn from './components/HomePage/LoginBtn';
 import ProfileBtn from './components/HomePage/ProfileBtn';
 import SignupBtn from './components/HomePage/SignupBtn';
@@ -30,14 +29,6 @@ export default function Home() {
       <div className="lg:hidden md:hidden">
         <div className="flex justify-center items-end h-screen w-screen bg-gradient-bg-m bg-center bg-cover bg-no-repeat">
           <div className="text-center mx-10 mb-12 text-white">
-            <div className="px-6">One Stop Home Services</div>
-            <div className="pt-7 pb-12">
-              Your one-stop solution for all home services needs! From plumbing
-              repairs to cleaning services, we've got you covered.
-            </div>
-            <div>
-              <GetStartedBtn />
-            </div>
           </div>
         </div>
       </div>
