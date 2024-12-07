@@ -33,7 +33,7 @@ export default function Home() {
               <h1 className="text-3xl font-bold">One Stop Home Services</h1>
             </div>
             <div className='pt-7 pb-12'>
-              <p className="text-wrap text-sm">
+              <p className="text-sm">
                 Your one-stop solution for all home services needs! From
                 plumbing repairs to cleaning services, we've got you covered.
               </p>
