@@ -1,5 +1,4 @@
 import React from 'react';
-import GetStartedBtn from './components/HomePage/GetStartedBtn';
 import LoginBtn from './components/HomePage/LoginBtn';
 import ProfileBtn from './components/HomePage/ProfileBtn';
 import SignupBtn from './components/HomePage/SignupBtn';
@@ -25,9 +24,7 @@ export default function Home() {
             FIREMAN
           </div>
         </div>
-      </div>
-
-      
+      </div>  
     </>
   );
 }
