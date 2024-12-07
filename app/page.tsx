@@ -26,13 +26,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="lg:hidden md:hidden">
-          <h1 className="text-3xl font-bold">One Stop Home Services</h1>
-          <p className="text-wrap text-sm">
-            Your one-stop solution for all home services needs! From plumbing
-            repairs to cleaning services, we've got you covered.
-          </p>
-      </div>
+      <h1 className="text-3xl font-bold">One Stop Home Services</h1>
+      <p className="text-wrap text-sm">
+        Your one-stop solution for all home services needs! From plumbing
+        repairs to cleaning services, we've got you covered.
+      </p>
     </>
   );
 }
