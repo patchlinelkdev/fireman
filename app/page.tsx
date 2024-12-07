@@ -35,7 +35,7 @@ export default function Home() {
             <div className='pt-7 pb-12'>
               <p className="text-wrap text-sm">
                 Your one-stop solution for all home services needs! From
-                plumbing repairs to cleaning services, we've got you covered.
+                plumbing repairs to cleaning services, we have got you covered.
               </p>
             </div>
             <div>
