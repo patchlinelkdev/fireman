@@ -84,7 +84,7 @@ const SignupForm = () => {
           placeholder="Full Name"
           value={fullName}
           onChange={(e) => setFullName(e.target.value)}
-          className="w-full p-2 mb-5 text-base text-center border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-1 focus:ring-blue-400 box-border shadow-inner-shadow-input"
+          className="w-full p-2 mb-6 text-base text-center border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-1 focus:ring-blue-400 box-border shadow-inner-shadow-input"
         />
 
         {/* prints emailError if invalid email */}
@@ -99,7 +99,7 @@ const SignupForm = () => {
           placeholder="Email address"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-2 mb-5 text-base text-center border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-1 focus:ring-blue-400 box-border shadow-inner-shadow-input"
+          className="w-full p-2 mb-6 text-base text-center border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-1 focus:ring-blue-400 box-border shadow-inner-shadow-input"
         />
 
         {/* prints PasswordError if password field not filled */}
@@ -114,7 +114,7 @@ const SignupForm = () => {
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full p-2 mb-5 text-base text-center border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-1 focus:ring-blue-400 shadow-inner-shadow-input box-border"
+          className="w-full p-2 mb-6 text-base text-center border border-gray-300 rounded-md bg-gray-100 focus:outline-none focus:ring-1 focus:ring-blue-400 shadow-inner-shadow-input box-border"
         />
 
         {/* prints error if passwords dont match */}
@@ -137,7 +137,7 @@ const SignupForm = () => {
         <Link href={'/login'}>Already have an Account?</Link>
       </div>
 
-      <div className='text-sm py-6 text-wrap mx-10'>
+      <div className='text-sm py-6 text-wrap mx-10 text-white'>
         <p>Create your account to book services, manage appointments, and make your home life easier.</p>
       </div>
 
